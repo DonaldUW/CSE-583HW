@@ -1,0 +1,8 @@
+# Downloaded assignment data
+src/hw1_data_analysis/bicycle_data.csv
+
+# Local Python environment and generated build files
+.venv/
+*.egg-info/
+__pycache__/
+*.py[cod]
