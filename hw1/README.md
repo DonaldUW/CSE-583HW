@@ -36,7 +36,7 @@ Complete all data-analysis work in `src/hw1_data_analysis/hw1.py`.
 - [x] Use Pandas and Matplotlib to plot the 2016 bicycle counts by hour, add a suitable title and axis labels, and save the figure as `counts_by_hour.png`. **(1 point)**
 - [x] Calculate the busiest hour of the day on average and write the result in a code comment. **(1 point)**
 - [x] Describe the homework process in this README and disclose any AI assistance. **(1 point)**
-- [ ] Push the completed homework to GitHub without uploading the CSV data file.
+- [x] Pushed the completed homework to GitHub without uploading the CSV data file.
 - [ ] Submit the GitHub repository link on Canvas.
 
 ## Setup and Progress
@@ -52,7 +52,7 @@ Complete all data-analysis work in `src/hw1_data_analysis/hw1.py`.
 - [x] Completed and tested the data analysis.
 - [x] Inspected the generated plot.
 - [x] Completed the process description and AI disclosure below.
-- [ ] Commit and push the final version of the homework.
+- [x] Committed and pushed the final version of the homework.
 
 ## Important Notes
 
@@ -87,4 +87,4 @@ Finally, I reran the complete script, confirmed that the missing-data count was 
 
 ## AI Assistance Disclosure
 
-AI was used to explains different functions, and checked grammers. AI also using for write down the README files and checked the progress of hw1. All coding part and solving part are finished by myself.
+AI was used to explains different functions, and checked grammers. AI also using for write down the README files and checked the progress of hw1. All coding and solving part are finished by myself.
