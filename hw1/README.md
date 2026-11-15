@@ -22,37 +22,6 @@ hw1/
 
 The project name in `pyproject.toml` uses hyphens (`hw1-data-analysis`), while the Python package directory uses underscores (`hw1_data_analysis`).
 
-## Assignment Requirements
-
-Complete all data-analysis work in `src/hw1_data_analysis/hw1.py`.
-
-- [x] Read the CSV file into a Pandas DataFrame. **(1 point)**
-- [x] Describe the DataFrame columns and their expected data types in a code comment, and correct any types that do not match. **(1 point)**
-- [x] Add a column containing the sum of the East and West bicycle counts. **(1 point)**
-- [x] Add a column containing the hour of the day. **(1 point)**
-- [x] Add a column containing the year. **(1 point)**
-- [x] Create a new DataFrame containing only observations from 2016. **(1 point)**
-- [x] Check the 2016 DataFrame for missing time points, prevent missing values from affecting later calculations, and record the number of missing points in a code comment. **(1 point)**
-- [x] Use Pandas and Matplotlib to plot the 2016 bicycle counts by hour, add a suitable title and axis labels, and save the figure as `counts_by_hour.png`. **(1 point)**
-- [x] Calculate the busiest hour of the day on average and write the result in a code comment. **(1 point)**
-- [x] Describe the homework process in this README and disclose any AI assistance. **(1 point)**
-- [x] Pushed the completed homework to GitHub without uploading the CSV data file.
-- [ ] Submit the GitHub repository link on Canvas.
-
-## Setup and Progress
-
-- [x] Created the `hw1` directory.
-- [x] Created the `src/hw1_data_analysis` directory.
-- [x] Created `pyproject.toml` with the required project information and dependencies.
-- [x] Created an empty `src/hw1_data_analysis/__init__.py`.
-- [x] Created and completed `src/hw1_data_analysis/hw1.py`.
-- [x] Downloaded the CSV as `src/hw1_data_analysis/bicycle_data.csv`.
-- [x] Added `.gitignore` so the downloaded CSV is not uploaded to GitHub.
-- [x] Installed the project dependencies in the Python 3.13 virtual environment at `hw1/.venv`.
-- [x] Completed and tested the data analysis.
-- [x] Inspected the generated plot.
-- [x] Completed the process description and AI disclosure below.
-- [x] Committed and pushed the final version of the homework.
 
 ## Important Notes
 
