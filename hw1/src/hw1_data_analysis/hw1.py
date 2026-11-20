@@ -7,8 +7,11 @@ b_data = pd.read_csv("src/hw1_data_analysis/bicycle_data.csv")
 #print(b_data.columns)
 #print(b_data.dtypes)
 
-# Date contains the date and hour of each observation and should be datetime. Total contains the total bicycle count and should be numeric.
-# West Sidewalk and East Sidewalk contain bicycle counts for each direction and should be numeric. Pandas uses float64 because these columns may have missing values.
+# Expected data types:
+# Date: read as str, but it represents a date and hour, so it should be converted to Pandas datetime64.
+# Fremont Bridge Total: float64 bicycle counts. Float is appropriate because the column contains missing values represented by NaN.
+# West Sidewalk: float64 bicycle counts; it may contain NaN.
+# East Sidewalk: float64 bicycle counts; it may contain NaN.
 b_data["Date"] = pd.to_datetime(b_data["Date"], format="%m/%d/%Y %I:%M:%S %p")
 #print(b_data["Date"].head())
 #print(b_data["Date"].dtype)
@@ -21,6 +24,9 @@ b_data["total"] = b_data[west] +b_data[east]
 b_data["Hour"] = b_data["Date"].dt.hour
 b_data["Year"] = b_data["Date"].dt.year
 #print( b_data[["Date", "Hour", "Year"]].head())
+# total: float64 because it is calculated from the two float count columns.
+# Hour: integer hour from 0 to 23.
+# Year: integer four-digit year.
 
 data_2016 = b_data[b_data["Year"] == 2016].copy()
 # print(data_2016.head())
